@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+AUTH_USER_MODEL = 'user.CustomUser'
 ROOT_URLCONF = 'Custom_User.urls'
 
 TEMPLATES = [
